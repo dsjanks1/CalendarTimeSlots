@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start-timeslots": "nodemon --exec ts-node timeslots.ts",
     "start": "nodemon --exec ts-node index.ts",
     "pretty": "prettier --write index.ts"
 
